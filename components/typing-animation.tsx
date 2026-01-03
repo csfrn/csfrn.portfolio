@@ -4,7 +4,7 @@ import { useEffect, useState } from "react"
 
 export function TypingAnimation() {
   const [text, setText] = useState("")
-  const fullText = ">> CSFRN"
+  const fullText = "CSFRN"
   const [isDeleting, setIsDeleting] = useState(false)
 
   useEffect(() => {
