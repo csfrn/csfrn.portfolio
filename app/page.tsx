@@ -24,6 +24,11 @@ export default function Home() {
   ]
 
   const skills = [
+     {
+      name: "Databases and SQL for Data Science",
+      image: "https://images.credly.com/size/680x680/images/f2573aac-d21c-483d-acda-afaa366b4f51/image.png",
+      alt: "Databases and SQL for Data Science",
+    },
     {
       name: "AWS Cloud Practitioner",
       image: "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
@@ -31,13 +36,13 @@ export default function Home() {
     },
     {
       name: "CompTIA A+",
-      image: "https://images.credly.com/images/a81e53e7-3649-4366-917d-9611bb74c10c/CompTIA_A_2B.png",
+      image: "https://images.credly.com/size/680x680/images/f6d62c5d-1e1d-4de6-92ee-8dc8c80b1c7b/blob",
       alt: "CompTIA A+ Certification",
     },
     {
-      name: "Databases and SQL for Data Science",
-      image: "https://www.credly.com/earner/earned/badge/4399a116-bb39-4ae2-ba66-f3b5770af479",
-      alt: "Databases and SQL for Data Science",
+      name: "CompTIA Security+",
+      image: "https://images.credly.com/size/680x680/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob",
+      alt: "CompTIA Security+ Certification",
     }
   ]
 

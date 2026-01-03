@@ -1,0 +1,100 @@
+[00:00:01.449] Server  LOG     
+[00:00:01.449] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
+[00:00:01.449] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
+
+[00:00:01.449] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
+[00:00:01.450] Server  LOG     
+[00:00:01.450] Server  LOG        The following mandatory changes were made to your tsconfig.json:
+
+[00:00:01.450] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
+[00:00:01.450] Server  LOG     
+[00:00:01.589] Server  LOG      ✓ Ready in 1146ms
+[00:00:10.042] Server  LOG      ○ Compiling / ...
+[00:00:15.930] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.930] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:15.930] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"https://turbo-adventure-v667vjjqx9jr2qrg.github.dev/","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767470725460}
+[00:00:15.930] Browser WARN    Image with src "/professional-portrait.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:02.894] Server  LOG      ✓ Compiled in 24ms
+[00:01:09.069] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:09.069] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:01:09.069] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:09.069] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767470778460}
+[00:01:36.942] Browser ERROR   ./app/page.tsx:39:39
+Parsing ecmascript source code failed
+  37 |     {
+  38 |       name: "Databases and SQL for Data Science",
+> 39 |       image: "<div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4399a116-bb39-4ae2-ba66-f3b5770af479" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>",
+     |                                       ^^^
+  40 |       alt: "Databases and SQL for Data Science",
+  41 |     }
+  42 |   ]
+
+Expected ',', got 'numeric literal (150, 150)'
+[00:01:38.077] Server  LOG      ✓ Compiled in 24ms
+[00:02:13.420] Server  LOG      ✓ Compiled in 20ms
+[00:02:22.543] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:22.543] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:02:22.543] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:22.543] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767470851190}
+[00:03:04.819] Server  LOG      ✓ Compiled in 32ms
+[00:03:10.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:10.850] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:03:10.850] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:10.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767470901314}
+[00:04:00.069] Server  LOG      ✓ Compiled in 25ms
+[00:04:05.563] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:05.563] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:04:05.563] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:05.563] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767470954791}
+[00:04:44.422] Server  LOG      ✓ Compiled in 20ms
+[00:05:08.702] Server  LOG      ✓ Compiled in 21ms
+[00:05:14.224] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:14.224] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:14.224] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:05:14.224] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767471023533}
+[00:06:00.108] Server  LOG      ✓ Compiled in 24ms
+[00:06:07.781] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:07.781] Browser WARN    Image with src "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:06:07.781] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:06:07.781] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767471077079}
+[00:06:17.406] Server  LOG      ✓ Compiled in 20ms
+[00:06:35.913] Browser ERROR   ./app/page.tsx:39:14
+Parsing ecmascript source code failed
+  37 |     {
+  38 |       name: "CompTIA A+",
+> 39 |       image: "https://images.credly.com/size/680x680/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob,
+     |              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  40 |       alt: "CompTIA A+ Certification",
+  41 |     },
+  42 |     {
+
+Unterminated string constant
+[00:06:37.010] Server  LOG      ✓ Compiled in 20ms
+[00:06:46.832] Server  LOG      ✓ Compiled in 22ms
+[00:06:49.975] Server  LOG      ✓ Compiled in 19ms
+[00:07:45.216] Server  LOG      ✓ Compiled in 53ms
+[00:07:47.928] Server  LOG      ✓ Compiled in 15ms
+[00:07:53.916] Browser ERROR   ./app/page.tsx:32:5
+Parsing ecmascript source code failed
+  30 |       alt: "Databases and SQL for Data Science",
+  31 |     }
+> 32 |     {
+     |     ^
+  33 |       name: "AWS Cloud Practitioner",
+  34 |       image: "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+  35 |       alt: "AWS Certified Cloud Practitioner",
+
+Expected ',', got '{'
+[00:07:54.454] Server  LOG      ✓ Compiled in 19ms
+[00:08:01.794] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:01.794] Browser WARN    Image with src "https://images.credly.com/size/680x680/images/f2573aac-d21c-483d-acda-afaa366b4f51/image.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:08:01.794] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:08:01.794] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","r":"","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767471191151}
