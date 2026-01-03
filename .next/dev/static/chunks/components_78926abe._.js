@@ -123,7 +123,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
 }),
-"[project]/components/cursor-effect.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"[project]/components/magnetic-cursor.tsx [app-client] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
@@ -271,7 +271,7 @@ function MagneticCursor() {
                     mixBlendMode: "difference"
                 }
             }, void 0, false, {
-                fileName: "[project]/components/cursor-effect.tsx",
+                fileName: "[project]/components/magnetic-cursor.tsx",
                 lineNumber: 127,
                 columnNumber: 7
             }, this),
@@ -282,7 +282,7 @@ function MagneticCursor() {
                     mixBlendMode: "difference"
                 }
             }, void 0, false, {
-                fileName: "[project]/components/cursor-effect.tsx",
+                fileName: "[project]/components/magnetic-cursor.tsx",
                 lineNumber: 133,
                 columnNumber: 7
             }, this)
@@ -299,4 +299,4 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 ]);
 
-//# sourceMappingURL=components_302cc11b._.js.map
+//# sourceMappingURL=components_78926abe._.js.map

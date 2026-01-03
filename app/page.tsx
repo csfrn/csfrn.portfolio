@@ -2,7 +2,8 @@ import Image from "next/image"
 import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { TypingAnimation } from "@/components/typing-animation"
-import { CursorEffect } from "@/components/cursor-effect"
+import { MagneticCursor } from "@/components/magnetic-cursor"
+
 
 const projects = [
   {
@@ -93,7 +94,7 @@ const navLinks = [
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <CursorEffect />
+      <MagneticCursor />
 
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">

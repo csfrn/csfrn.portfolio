@@ -849,3 +849,445 @@ Expected ',', got 'github'
 [01:27:27.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [01:27:27.135] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [01:27:27.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767475956415}
+[01:30:55.713] Server  LOG      ✓ Compiled in 17ms
+[01:31:12.720] Server  LOG      ✓ Compiled in 22ms
+[01:31:13.856] Browser ERROR   ./components/cursor-effect.tsx:37:18
+Parsing ecmascript source code failed
+  35 |         radius: 0,
+  36 |         maxRadius: 150,
+> 37 |         opacity: ,
+     |                  ^
+  38 |       })
+  39 |
+  40 |       // Limit ripples array size
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/cursor-effect.tsx
+    ./app/page.tsx
+[01:31:14.774] Server  LOG      ✓ Compiled in 22ms
+[01:31:21.631] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:31:21.631] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:31:21.631] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476190996}
+[01:31:56.248] Server  LOG      ✓ Compiled in 37ms
+[01:32:00.948] Server  LOG      ✓ Compiled in 17ms
+[01:32:06.368] Server  LOG      ✓ Compiled in 16ms
+[01:32:09.533] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:32:09.533] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:32:09.533] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476238864}
+[01:33:31.245] Server  LOG      ✓ Compiled in 87ms
+[01:33:31.391] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/cursor-effect.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:33:34.015] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:33:34.044] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:33:39.437] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:39.437] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:33:43.305] Server  LOG      ✓ Compiled in 43ms
+[01:33:43.556] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:33:47.147] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:33:47.147] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:33:47.147] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476336318}
+[01:33:58.073] Server  LOG      ✓ Compiled in 59ms
+[01:33:58.207] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./components/cursor-effect.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[01:33:58.618] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:34:01.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:01.176] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:34:03.413] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:34:06.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:06.199] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:34:54.210] Server  LOG      ✓ Compiled in 154ms
+[01:34:54.365] Server  ERROR    ⨯ ReferenceError: CursorEffect is not defined
+[01:34:56.771] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:34:56.771] Browser ERROR   uncaughtError: ReferenceError: CursorEffect is not defined
+[01:34:58.028] Server  ERROR    ⨯ ReferenceError: CursorEffect is not defined
+[01:35:01.112] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:01.112] Browser ERROR   uncaughtError: ReferenceError: CursorEffect is not defined
+[01:35:40.854] Browser ERROR   ./app/page.tsx:97:25
+Parsing ecmascript source code failed
+   95 |   return (
+   96 |     <div className="min-h-screen">
+>  97 |       <<MagneticCursor />
+      |                         ^
+   98 |  />
+   99 |
+  100 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+
+Expression expected
+[01:35:40.854] Browser ERROR   ./app/page.tsx:98:2
+Parsing ecmascript source code failed
+   96 |     <div className="min-h-screen">
+   97 |       <<MagneticCursor />
+>  98 |  />
+      |  ^^
+   99 |
+  100 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+  101 |         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
+
+Unterminated regexp literal
+[01:35:43.853] Browser ERROR   ./app/page.tsx:98:3
+Parsing ecmascript source code failed
+   96 |     <div className="min-h-screen">
+   97 |       <MagneticCursor />
+>  98 |  />
+      |   ^
+   99 |
+  100 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+  101 |         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[01:35:44.754] Server  LOG      ✓ Compiled in 21ms
+[01:35:44.976] Server  ERROR    ⨯ ReferenceError: CursorEffect is not defined
+[01:35:48.633] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:35:48.633] Browser ERROR   uncaughtError: ReferenceError: CursorEffect is not defined
+[01:35:49.851] Browser ERROR   ./app/page.tsx:98:3
+Parsing ecmascript source code failed
+   96 |     <div className="min-h-screen">
+   97 |       <MagneticCursor />
+>  98 |  />
+      |   ^
+   99 |
+  100 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+  101 |         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[01:35:50.845] Browser ERROR   ./app/page.tsx:97:27
+Parsing ecmascript source code failed
+   95 |   return (
+   96 |     <div className="min-h-screen">
+>  97 |       <MagneticCursor /> />
+      |                           ^
+   98 |
+   99 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+  100 |         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[01:35:52.375] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.376] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.393] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.395] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.396] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.397] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.398] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.401] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.405] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.410] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:35:52.848] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:36:07.505] Server  ERROR    ⨯ ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:36:09.863] Browser ERROR   uncaughtError: Error: ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:36:09.989] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:36:10.139] Browser ERROR   ./app/page.tsx:5:1
+Module not found: Can't resolve '@/components/magnetic-cursor'
+  3 | import { ThemeToggle } from "@/components/theme-toggle"
+  4 | import { TypingAnimation } from "@/components/typing-animation"
+> 5 | import { MagneticCursor } from "@/components/magnetic-cursor"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  6 |
+  7 |
+  8 | const projects = [
+
+Import map: aliased to relative './components/magnetic-cursor' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found
+[01:36:58.735] Server  LOG      ✓ Compiled in 45ms
+[01:37:03.148] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:03.148] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:37:03.148] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476532493}
+[01:37:09.181] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:09.181] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:37:09.181] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476538444}
+[01:38:19.843] Browser ERROR   ./app/page.tsx:97:27
+Parsing ecmascript source code failed
+   95 |   return (
+   96 |     <div className="min-h-screen">
+>  97 |       <MagneticCursor /> />
+      |                           ^
+   98 |
+   99 |       <header className="fixed top-0 left-0 right-0 z-50 border-b border-foreground bg-background/95 backdrop-blur-sm">
+  100 |         <nav className="container mx-auto px-6 py-4 flex items-center justify-between max-w-6xl">
+
+Unexpected token. Did you mean `{'>'}` or `&gt;`?
+[01:38:22.736] Server  LOG      ✓ Compiled in 21ms
+[01:39:10.486] Server  LOG      ✓ Compiled in 108ms
+[01:39:15.618] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:39:15.618] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:39:15.618] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476664988}
+[01:40:27.149] Server  LOG      ✓ Compiled in 119ms
+[01:40:32.250] Server  LOG      ✓ Compiled in 106ms
+[01:40:32.843] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /workspaces/csfrn.portfolio/app/globals.css:132:1: Unclosed comment
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at unclosed (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/tokenize.js:45:17)]
+    [at Object.nextToken (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/tokenize.js:228:15)]
+    [at Parser.parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parser.js:444:30)]
+    [at parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[01:40:34.843] Browser ERROR   ./app/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /workspaces/csfrn.portfolio/app/globals.css:132:1: Unclosed comment
+    [at Input.error (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/input.js:135:16)]
+    [at unclosed (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/tokenize.js:45:17)]
+    [at Object.nextToken (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/tokenize.js:228:15)]
+    [at Parser.parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parser.js:444:30)]
+    [at parse (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/.pnpm/postcss@8.5.6/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./app/globals.css [Client Component Browser]
+    ./app/layout.tsx [Server Component]
+[01:40:35.704] Server  LOG      ✓ Compiled in 367ms
+[01:40:43.510] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:40:43.510] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:40:43.510] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476752558}
+[01:41:30.421] Server  LOG      ✓ Compiled in 218ms
+[01:41:30.678] Server  ERROR    ⨯ ReferenceError: MagneticCursor is not defined
+[01:41:33.146] Server  LOG      ✓ Compiled in 55ms
+[01:41:34.392] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:41:34.392] Browser ERROR   uncaughtError: ReferenceError: MagneticCursor is not defined
+[01:42:46.070] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:42:46.070] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:42:46.070] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476875503}
+[01:43:03.035] Server  LOG      ✓ Compiled in 57ms
+[01:43:09.831] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:43:09.831] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:43:09.831] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476899133}
+[01:44:35.043] Server  LOG      ✓ Compiled in 24ms
+[01:44:46.090] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:44:46.090] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:44:46.090] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767476995503}
+[01:44:49.067] Server  LOG      ✓ Compiled in 29ms
+[01:46:37.044] Server  LOG      ✓ Compiled in 26ms
+[01:46:52.957] Server  LOG      ✓ Compiled in 25ms
+[01:47:21.461] Server  LOG      ✓ Compiled in 138ms
+[01:47:23.646] Server  LOG      ✓ Compiled in 91ms
+[01:47:44.628] Server  LOG      ✓ Compiled in 67ms
+[01:48:04.812] Server  LOG      ✓ Compiled in 77ms
+[01:48:07.632] Server  LOG      ✓ Compiled in 53ms
+[01:48:21.798] Server  LOG      ✓ Compiled in 84ms

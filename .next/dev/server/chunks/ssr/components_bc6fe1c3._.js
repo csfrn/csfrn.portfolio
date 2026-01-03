@@ -93,7 +93,7 @@ function TypingAnimation() {
     }, this);
 }
 }),
-"[project]/components/cursor-effect.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
+"[project]/components/magnetic-cursor.tsx [app-ssr] (ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
 __turbopack_context__.s([
@@ -227,7 +227,7 @@ function MagneticCursor() {
                     mixBlendMode: "difference"
                 }
             }, void 0, false, {
-                fileName: "[project]/components/cursor-effect.tsx",
+                fileName: "[project]/components/magnetic-cursor.tsx",
                 lineNumber: 127,
                 columnNumber: 7
             }, this),
@@ -238,7 +238,7 @@ function MagneticCursor() {
                     mixBlendMode: "difference"
                 }
             }, void 0, false, {
-                fileName: "[project]/components/cursor-effect.tsx",
+                fileName: "[project]/components/magnetic-cursor.tsx",
                 lineNumber: 133,
                 columnNumber: 7
             }, this)
@@ -248,4 +248,4 @@ function MagneticCursor() {
 }),
 ];
 
-//# sourceMappingURL=components_a4cba96e._.js.map
+//# sourceMappingURL=components_bc6fe1c3._.js.map
