@@ -34,6 +34,11 @@ export default function Home() {
       image: "https://images.credly.com/images/a81e53e7-3649-4366-917d-9611bb74c10c/CompTIA_A_2B.png",
       alt: "CompTIA A+ Certification",
     },
+    {
+      name: "Databases and SQL for Data Science",
+      image: "https://www.credly.com/earner/earned/badge/4399a116-bb39-4ae2-ba66-f3b5770af479",
+      alt: "Databases and SQL for Data Science",
+    }
   ]
 
   const experience = [
