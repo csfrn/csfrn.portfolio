@@ -2,6 +2,13 @@
 
 import { useEffect, useRef } from "react"
 
+type Ripple = {
+  x: number
+  y: number
+  r: number
+  life: number // 1 -> 0
+}
+
 export function CursorEffect() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
@@ -9,93 +16,133 @@ export function CursorEffect() {
     const canvas = canvasRef.current
     if (!canvas) return
 
-    const ctx = canvas.getContext("2d", { willReadFrequently: true })
+    const ctx = canvas.getContext("2d")
     if (!ctx) return
 
-    // Set canvas size
+    let dpr = Math.min(window.devicePixelRatio || 1, 2)
+
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth
-      canvas.height = window.innerHeight
+      dpr = Math.min(window.devicePixelRatio || 1, 2)
+      canvas.width = Math.floor(window.innerWidth * dpr)
+      canvas.height = Math.floor(window.innerHeight * dpr)
+      canvas.style.width = `${window.innerWidth}px`
+      canvas.style.height = `${window.innerHeight}px`
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0) // draw in CSS pixels
     }
+
     resizeCanvas()
     window.addEventListener("resize", resizeCanvas)
 
-    let mouseX = window.innerWidth / 2
-    let mouseY = window.innerHeight / 2
-    const ripples: Array<{ x: number; y: number; radius: number; maxRadius: number; opacity: number }> = []
+    const ripples: Ripple[] = []
+
+    // Smooth spawning control
+    let lastSpawn = 0
+    let lastX = window.innerWidth / 2
+    let lastY = window.innerHeight / 2
+    const minSpawnMs = 18 // ~55 spawns/sec max
+    const minDist = 10 // px
 
     const handleMouseMove = (e: MouseEvent) => {
-      mouseX = e.clientX
-      mouseY = e.clientY
+      const now = performance.now()
+      const x = e.clientX
+      const y = e.clientY
 
-      // Create multiple ripples for more intensity
-      ripples.push({
-        x: mouseX,
-        y: mouseY,
-        radius: 0,
-        maxRadius: 150,
-        opacity: 1,
-      })
+      const dx = x - lastX
+      const dy = y - lastY
+      const dist = Math.hypot(dx, dy)
 
-      // Limit ripples array size
-      if (ripples.length > 30) {
-        ripples.shift()
-      }
+      if (now - lastSpawn < minSpawnMs || dist < minDist) return
+
+      lastSpawn = now
+      lastX = x
+      lastY = y
+
+      ripples.push({ x, y, r: 0, life: 1 })
+
+      // Keep it bounded
+      if (ripples.length > 40) ripples.shift()
     }
 
-    // Create intense distortion effect
-    const animate = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height)
+    document.addEventListener("mousemove", handleMouseMove, { passive: true })
 
-      // Draw and update ripples
+    // Easing helpers
+    const easeOutCubic = (t: number) => 1 - Math.pow(1 - t, 3)
+
+    let lastTime = performance.now()
+    let raf = 0
+
+    const animate = (t: number) => {
+      const dt = Math.min((t - lastTime) / 1000, 0.033) // seconds, clamp
+      lastTime = t
+
+      ctx.clearRect(0, 0, window.innerWidth, window.innerHeight)
+
+      // optional: a tiny bit of blur for smoothness
+      ctx.lineJoin = "round"
+      ctx.lineCap = "round"
+
       for (let i = ripples.length - 1; i >= 0; i--) {
-        const ripple = ripples[i]
+        const rp = ripples[i]
 
-        // Update ripple - faster expansion
-        ripple.radius += 5
-        ripple.opacity -= 0.012
+        // Time-based updates
+        rp.r += 520 * dt // expansion speed (px/sec)
+        rp.life -= 1.25 * dt // fade speed (life/sec)
 
-        if (ripple.opacity <= 0) {
+        if (rp.life <= 0) {
           ripples.splice(i, 1)
           continue
         }
 
-        // Draw multiple distortion layers for intensity
+        const progress = 1 - rp.life // 0 -> 1
+        const e = easeOutCubic(progress)
+
+        const maxR = 160
+        const r = Math.min(rp.r * (0.85 + 0.15 * e), maxR)
+
+        const baseAlpha = rp.life
+        const col = (a: number) => `rgba(15, 16, 17, ${a})`
+
+        // If you want it even smoother, uncomment:
+        // ctx.shadowBlur = 10
+        // ctx.shadowColor = col(baseAlpha * 0.35)
+
         // Outer ring
         ctx.beginPath()
-        ctx.arc(ripple.x, ripple.y, ripple.radius, 0, Math.PI * 2)
-        ctx.strokeStyle = `rgba(15, 16, 17, ${ripple.opacity * 0.6})`
-        ctx.lineWidth = 3
+        ctx.arc(rp.x, rp.y, r, 0, Math.PI * 2)
+        ctx.strokeStyle = col(baseAlpha * 0.45)
+        ctx.lineWidth = 2.25
         ctx.stroke()
 
         // Middle ring
         ctx.beginPath()
-        ctx.arc(ripple.x, ripple.y, ripple.radius * 0.7, 0, Math.PI * 2)
-        ctx.strokeStyle = `rgba(15, 16, 17, ${ripple.opacity * 0.4})`
-        ctx.lineWidth = 2
+        ctx.arc(rp.x, rp.y, r * 0.68, 0, Math.PI * 2)
+        ctx.strokeStyle = col(baseAlpha * 0.28)
+        ctx.lineWidth = 1.6
         ctx.stroke()
 
-        // Inner glow
+        // Inner ring
         ctx.beginPath()
-        ctx.arc(ripple.x, ripple.y, ripple.radius * 0.4, 0, Math.PI * 2)
-        ctx.strokeStyle = `rgba(15, 16, 17, ${ripple.opacity * 0.3})`
-        ctx.lineWidth = 2
+        ctx.arc(rp.x, rp.y, r * 0.38, 0, Math.PI * 2)
+        ctx.strokeStyle = col(baseAlpha * 0.22)
+        ctx.lineWidth = 1.2
         ctx.stroke()
 
-        // Central dot
+        // Center dot
         ctx.beginPath()
-        ctx.arc(ripple.x, ripple.y, 3, 0, Math.PI * 2)
-        ctx.fillStyle = `rgba(15, 16, 17, ${ripple.opacity * 0.8})`
+        ctx.arc(rp.x, rp.y, 2.2, 0, Math.PI * 2)
+        ctx.fillStyle = col(baseAlpha * 0.6)
         ctx.fill()
+
+        // ctx.shadowBlur = 0
       }
 
-      requestAnimationFrame(animate)
+      raf = requestAnimationFrame(animate)
     }
 
-    document.addEventListener("mousemove", handleMouseMove)
-    animate()
+    raf = requestAnimationFrame(animate)
 
     return () => {
+      cancelAnimationFrame(raf)
       document.removeEventListener("mousemove", handleMouseMove)
       window.removeEventListener("resize", resizeCanvas)
     }

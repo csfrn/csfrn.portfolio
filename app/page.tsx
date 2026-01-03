@@ -12,14 +12,16 @@ const projects = [
     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/geospatial_data_quality_pipeline",
   },
   {
-    title: "Project Beta",
-    description: "Full-stack solution with real-time data synchronization",
-    github: "https://github.com/username/project-beta",
+    title: "Real-Time Fraud Detection",
+    description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+    tech: "Apache Kafka, Docker and Python", 
+    github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
   },
   {
-    title: "Project Gamma",
-    description: "Open-source tool for developer productivity",
-    github: "https://github.com/username/project-gamma",
+    title: "Cloud Data Warehouse for Music Analytics",
+    description: "Cloud-based data warehouse using AWS Redshift",
+    tech: "AWS Redshift, S3 and Python",
+    github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/cloud_data_warehouse_for_music_analytics",
   },
 ]
 
@@ -144,7 +146,7 @@ export default function Home() {
               </p>
 
               <p className="text-lg md:text-xl leading-relaxed opacity-80 mt-4">
-                Outside work, I keep learning and building side projects — and I make time to unplug, travel, and enjoy life
+                Outside work, I keep learning and building side projects and I make time to unplug, travel, and enjoy life
                 off-screen.
               </p>
             </div>
@@ -175,9 +177,9 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Skills */}
-        <section id="skills" className="py-20 border-t border-foreground">
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-12">Skills</h2>
+        {/* Certifications */}
+        <section id="Certifications" className="py-20 border-t border-foreground">
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-12">Certifications</h2>
 
           <div className="flex flex-wrap gap-8">
             {skills.map((s) => (

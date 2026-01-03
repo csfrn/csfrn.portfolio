@@ -700,3 +700,152 @@ Expected ',', got 'github'
 [00:52:33.750] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
 [00:52:33.750] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:52:33.750] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767473863022}
+[01:14:17.824] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:14:17.824] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:14:17.824] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767475167211}
+[01:15:10.558] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:15:10.559] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:15:10.559] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767475219899}
+[01:20:23.418] Server  LOG      ✓ Compiled in 21ms
+[01:20:36.809] Server  LOG      ✓ Compiled in 57ms
+[01:20:38.111] Server  LOG      ✓ Compiled in 0ms
+[01:21:02.398] Server  LOG      ✓ Compiled in 18ms
+[01:21:16.844] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: ""
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:27.844] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: "Apache Kafka"
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:29.844] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: "Apache Kafka, "
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:35.849] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: "Apache Kafka, Docker"
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:37.842] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: "Apache Kafka, Docker, "
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:45.854] Browser ERROR   ./app/page.tsx:18:5
+Parsing ecmascript source code failed
+  16 |     description: "AWS-based real-time fraud detection pipeline using Apache Kafka",
+  17 |     tech: "Apache Kafka, Docker, Python"
+> 18 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/real_time_fraud_detections",
+     |     ^^^^^^
+  19 |   },
+  20 |   {
+  21 |     title: "Project Gamma",
+
+Expected ',', got 'github'
+[01:21:55.696] Server  LOG      ✓ Compiled in 20ms
+[01:22:11.843] Browser ERROR   ./app/page.tsx:23:18
+Parsing ecmascript source code failed
+  21 |     title: "Project Gamma",
+  22 |     description: "Open-source tool for developer productivity",
+> 23 |     github: https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/cloud_data_warehouse_for_music_analytics",
+     |                  ^
+  24 |   },
+  25 | ]
+  26 |
+
+Expected ',', got ':'
+[01:22:13.652] Server  LOG      ✓ Compiled in 32ms
+[01:22:35.061] Server  LOG      ✓ Compiled in 16ms
+[01:22:37.302] Server  LOG      ✓ Compiled in 24ms
+[01:22:47.179] Server  LOG      ✓ Compiled in 18ms
+[01:22:54.844] Browser ERROR   ./app/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |     description: "Cloud-based data warehouse using AWS Redshift",
+  23 |     tech:
+> 24 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/cloud_data_warehouse_for_music_analytics",
+     |           ^
+  25 |   },
+  26 | ]
+  27 |
+
+Expected ',', got ':'
+[01:22:55.841] Browser ERROR   ./app/page.tsx:24:11
+Parsing ecmascript source code failed
+  22 |     description: "Cloud-based data warehouse using AWS Redshift",
+  23 |     tech: 
+> 24 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/cloud_data_warehouse_for_music_analytics",
+     |           ^
+  25 |   },
+  26 | ]
+  27 |
+
+Expected ',', got ':'
+[01:22:56.842] Browser ERROR   ./app/page.tsx:24:5
+Parsing ecmascript source code failed
+  22 |     description: "Cloud-based data warehouse using AWS Redshift",
+  23 |     tech: ""
+> 24 |     github: "https://github.com/csfrn/cloud-data-engineering-portfolio/tree/main/data_engineering/cloud_data_warehouse_for_music_analytics",
+     |     ^^^^^^
+  25 |   },
+  26 | ]
+  27 |
+
+Expected ',', got 'github'
+[01:22:57.930] Server  LOG      ✓ Compiled in 18ms
+[01:23:10.910] Server  LOG      ✓ Compiled in 17ms
+[01:23:12.321] Server  LOG      ✓ Compiled in 26ms
+[01:23:18.559] Server  LOG      ✓ Compiled in 18ms
+[01:23:19.840] Server  LOG      ✓ Compiled in 21ms
+[01:23:24.375] Server  LOG      ✓ Compiled in 15ms
+[01:23:26.145] Server  LOG      ✓ Compiled in 30ms
+[01:23:29.674] Server  LOG      ✓ Compiled in 25ms
+[01:23:33.215] Server  LOG      ✓ Compiled in 16ms
+[01:24:36.207] Server  LOG      ✓ Compiled in 21ms
+[01:25:15.481] Server  LOG      ✓ Compiled in 17ms
+[01:25:17.746] Server  LOG      ✓ Compiled in 87ms
+[01:25:19.077] Server  LOG      ✓ Compiled in 20ms
+[01:25:19.255] Server  ERROR    ⨯ ReferenceError: Certifications is not defined
+[01:25:20.706] Server  ERROR    ⨯ ReferenceError: Certifications is not defined
+[01:25:21.798] Server  LOG      ✓ Compiled in 17ms
+[01:25:21.846] Browser ERROR   uncaughtError: ReferenceError: Certifications is not defined
+[01:25:27.221] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:25:27.221] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:25:27.221] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/ color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767475836454}
+[01:27:16.617] Server  LOG      ✓ Compiled in 53ms
+[01:27:27.135] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:27:27.135] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:27:27.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro color: rgb(120, 120, 120) color: inherit {"o":"https://turbo-adventure-v667vjjqx9jr2qrg-3000.app.github.dev/#intro","sdkn":"@vercel/analytics/react","sdkv":"1.3.1","sv":"0.1.3","ts":1767475956415}
