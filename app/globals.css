@@ -42,6 +42,7 @@
   --sidebar-ring: #0f1011;
   --cursor-ring: #0f1011;
   --cursor-dot: #0f1011;
+  --spark-color: #0f1011
 }
 
 .dark {
@@ -81,6 +82,7 @@
   --sidebar-ring: #f8f2e8;
   --cursor-ring: #f8f2e8;
   --cursor-dot: #f8f2e8;
+  --spark-color: #f8f2e8
 }
 
 @theme inline {
