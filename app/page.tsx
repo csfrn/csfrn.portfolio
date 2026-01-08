@@ -3,7 +3,6 @@ import Link from "next/link"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { TypingAnimation } from "@/components/typing-animation"
 import ClickSpark from "@/components/click-spark"
-import { Analytics } from "@vercel/analytics/react"
 
 const projects = [
   {
@@ -51,21 +50,21 @@ const certifications = [
 
 const experience = [
   {
-    role: "Security Platform Analyst",
+    role: "Security Platform Engineer",
     company: "Vercel",
     period: "2025 - Present",
     description:
       "Build and operate automated security workflows to detect, investigate, and stop phishing, malware, and platform abuse at scale.",
   },
   {
-    role: "Operations Investigations Specialist",
+    role: "Security Operations Specialist",
     company: "Airbnb",
     period: "2025",
     description:
       "Designed investigation workflows and internal tools that supported a global product launch, improving data accuracy, onboarding speed, and cross-team execution.",
   },
   {
-    role: "Senior Quality Assurance Analyst",
+    role: "Senior Quality Assurance Engineer Lead",
     company: "Cruise",
     period: "2023 - 2025",
     description:
@@ -134,10 +133,8 @@ export default function Home() {
 
               <div className="flex-1">
                 <p className="text-lg md:text-xl leading-relaxed opacity-80">
-                  I’m an IT and cloud operations professional with experience supporting and improving production systems
-                  at <strong>Vercel</strong>, <strong>Airbnb</strong>, <strong>Cruise</strong>, <strong>Meta</strong>, and{" "}
-                  <strong>Amazon</strong>, working across infrastructure, automation, and operations to keep systems
-                  reliable and teams moving fast.
+                  I’m a platform-minded engineer with a background in IT and cloud operations, focused on building reliable, scalable systems that enable engineering teams to move fast. I’ve supported and improved production infrastructure at <strong>Vercel</strong>, <strong>Airbnb</strong>, <strong>Cruise</strong>, <strong>Meta</strong>, and{" "}
+                  <strong>Amazon</strong>, working across automation, reliability, and platform operations.
                 </p>
 
                 <p className="text-lg md:text-xl leading-relaxed opacity-80 mt-4">
